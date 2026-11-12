@@ -1,0 +1,18 @@
+.env
+.env.*
+!.env.example
+node_modules/
+.gradle/
+.kotlin/
+Vendor/
+build/
+DerivedData/
+local.properties
+*.p12
+*.mobileprovision
+*.xcuserstate
+xcuserdata/
+.DS_Store
+
+# Local release notes
+REVIEW_SCOPE.md

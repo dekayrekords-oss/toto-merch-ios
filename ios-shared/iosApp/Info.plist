@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Meow Merch</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>whatsapp</string>
+		<string>spotify</string>
+		<string>youtube</string>
+		<string>instagram</string>
+		<string>fb</string>
+		<string>fb-messenger</string>
+		<string>twitter</string>
+		<string>tiktok</string>
+		<string>snapchat</string>
+		<string>reddit</string>
+		<string>googlegmail</string>
+		<string>comgooglemaps</string>
+		<string>googlechrome</string>
+		<string>googledrive</string>
+		<string>googlephotos</string>
+		<string>slack</string>
+		<string>zoomus</string>
+		<string>msteams</string>
+		<string>ms-outlook</string>
+		<string>discord</string>
+		<string>tg</string>
+		<string>sgnl</string>
+		<string>nflx</string>
+		<string>twitch</string>
+		<string>uber</string>
+		<string>lyft</string>
+		<string>waze</string>
+		<string>venmo</string>
+		<string>paypal</string>
+		<string>com.amazon.mobile.shopping</string>
+		<string>linkedin</string>
+		<string>pinterest</string>
+		<string>notion</string>
+		<string>duolingo</string>
+		<string>chatgpt</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+	</dict>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>Toto's stereo shows the song playing in Music, with play, pause and next. Titles are read only when you open music controls.</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Meow Merch connects to a LOOI desktop robot over Bluetooth LE.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Meow Merch connects to a LOOI desktop robot over Bluetooth LE.</string>
+	<key>NSCalendarsFullAccessUsageDescription</key>
+	<string>Toto reads or adds calendar events only when you ask.</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>Toto reads or adds calendar events only when you ask.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Toto uses the camera for visual-awareness features, such as attention cues for the avatar.</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Toto connects to model servers and a LOOI desktop robot on your local network when you configure a LAN endpoint.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Toto uses your approximate location to show the local weather. You can type a city instead.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Toto uses the microphone for voice input — talking to your companion and voice commands.</string>
+	<key>NSRemindersFullAccessUsageDescription</key>
+	<string>Toto creates reminders when you ask it to remind you.</string>
+	<key>NSRemindersUsageDescription</key>
+	<string>Toto creates reminders when you ask it to remind you.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Toto uses speech recognition to transcribe your voice input.</string>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+	</dict>
+	<key>UILaunchScreen</key>
+	<dict/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+</dict>
+</plist>

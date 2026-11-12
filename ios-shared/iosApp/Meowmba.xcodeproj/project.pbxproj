@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A0000000000000000000012 /* iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000010 /* iOSApp.swift */; };
+		1A0000000000000000000013 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000011 /* ContentView.swift */; };
+        2B0000000000000000000001 = {isa = PBXBuildFile; fileRef = 2B0000000000000000000002; };
+        2D0000000000000000000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D0000000000000000000002 /* Assets.xcassets */; };
+        2C0000000000000000000001 /* NativeDrivers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0000000000000000000002 /* NativeDrivers.swift */; };
+        2B0000000000000000000003 = {isa = PBXBuildFile; fileRef = 2B0000000000000000000004; };
+        2B0000000000000000000005 = {isa = PBXBuildFile; fileRef = 2B0000000000000000000004; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+        3A0000000000000000000001 /* MeowWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0000000000000000000002; };
+        3A0000000000000000000003 /* MeowWidgets.appex in Embed */ = {isa = PBXBuildFile; fileRef = 3A0000000000000000000004; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+        4A0000000000000000000001 /* NeedleRuntime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0000000000000000000002; };
+        4A0000000000000000000003 /* needle.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0000000000000000000004; };
+        5A0000000000000000000001 /* Citadel in Frameworks */ = {isa = PBXBuildFile; productRef = 5A0000000000000000000003 /* Citadel */; };
+        5A0000000000000000000004 /* SshTerminal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0000000000000000000005; };
+        6B0000000000000000000001 /* SherpaOnnxC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B0000000000000000000002 /* SherpaOnnxC.xcframework */; };
+        6B0000000000000000000003 /* SherpaOnnxC.xcframework in Embed */ = {isa = PBXBuildFile; fileRef = 6B0000000000000000000002 /* SherpaOnnxC.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+        6B0000000000000000000004 /* SherpaOnnx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0000000000000000000005 /* SherpaOnnx.swift */; };
+        6B0000000000000000000006 /* TotoKokoroPack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0000000000000000000007 /* TotoKokoroPack.swift */; };
+        6B000000000000000000000A /* LooiTcpLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0000000000000000000009 /* LooiTcpLink.swift */; };
+        6B000000000000000000000B /* LooiBleLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B000000000000000000000C /* LooiBleLink.swift */; };
+        6B0000000000000000000010 /* TotoBunzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 6B0000000000000000000011 /* TotoBunzip.c */; };
+        6B0000000000000000000012 /* blocksort.c in Sources */ = {isa = PBXBuildFile; fileRef = 6B0000000000000000000013 /* blocksort.c */; };
+        6B0000000000000000000014 /* huffman.c in Sources */ = {isa = PBXBuildFile; fileRef = 6B0000000000000000000015 /* huffman.c */; };
+        6B0000000000000000000016 /* crctable.c in Sources */ = {isa = PBXBuildFile; fileRef = 6B0000000000000000000017 /* crctable.c */; };
+        6B0000000000000000000018 /* randtable.c in Sources */ = {isa = PBXBuildFile; fileRef = 6B0000000000000000000019 /* randtable.c */; };
+        6B000000000000000000001A /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = 6B000000000000000000001B /* compress.c */; };
+        6B000000000000000000001C /* decompress.c in Sources */ = {isa = PBXBuildFile; fileRef = 6B000000000000000000001D /* decompress.c */; };
+        6B000000000000000000001E /* bzlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 6B000000000000000000001F /* bzlib.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A0000000000000000000010 /* iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSApp.swift; sourceTree = "<group>"; };
+		1A0000000000000000000011 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1A0000000000000000000014 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A0000000000000000000017 /* Meowmba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meowmba.app; sourceTree = BUILT_PRODUCTS_DIR; };
+        2B0000000000000000000002 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnDeviceLlama.swift; sourceTree = "<group>"; };
+        2D0000000000000000000002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+        2C0000000000000000000002 /* NativeDrivers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeDrivers.swift; sourceTree = "<group>"; };
+        2B0000000000000000000004 = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Vendor/llama.xcframework; sourceTree = "<group>"; };
+        3A0000000000000000000002 /* MeowWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Widgets/MeowWidgets.swift; sourceTree = "<group>"; };
+        3A0000000000000000000004 /* MeowWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MeowWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+        4A0000000000000000000002 /* NeedleRuntime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeedleRuntime.swift; sourceTree = "<group>"; };
+        4A0000000000000000000004 /* needle.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Vendor/needle.xcframework; sourceTree = "<group>"; };
+        5A0000000000000000000005 /* SshTerminal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SshTerminal.swift; sourceTree = "<group>"; };
+        6B0000000000000000000002 /* SherpaOnnxC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Vendor/SherpaOnnxC.xcframework; sourceTree = "<group>"; };
+        6B0000000000000000000005 /* SherpaOnnx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SherpaOnnx.swift; sourceTree = "<group>"; };
+        6B0000000000000000000007 /* TotoKokoroPack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotoKokoroPack.swift; sourceTree = "<group>"; };
+        6B0000000000000000000009 /* LooiTcpLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LooiTcpLink.swift; sourceTree = "<group>"; };
+        6B000000000000000000000C /* LooiBleLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LooiBleLink.swift; sourceTree = "<group>"; };
+        6B0000000000000000000008 /* SherpaOnnx-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SherpaOnnx-Bridging-Header.h"; sourceTree = "<group>"; };
+        6B0000000000000000000011 /* TotoBunzip.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BZip2/TotoBunzip.c; sourceTree = "<group>"; };
+        6B0000000000000000000013 /* blocksort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BZip2/blocksort.c; sourceTree = "<group>"; };
+        6B0000000000000000000015 /* huffman.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BZip2/huffman.c; sourceTree = "<group>"; };
+        6B0000000000000000000017 /* crctable.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BZip2/crctable.c; sourceTree = "<group>"; };
+        6B0000000000000000000019 /* randtable.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BZip2/randtable.c; sourceTree = "<group>"; };
+        6B000000000000000000001B /* compress.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BZip2/compress.c; sourceTree = "<group>"; };
+        6B000000000000000000001D /* decompress.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BZip2/decompress.c; sourceTree = "<group>"; };
+        6B000000000000000000001F /* bzlib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BZip2/bzlib.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+        2B0000000000000000000006 = {isa = PBXCopyFilesBuildPhase; buildActionMask = 2147483647; dstPath = ""; dstSubfolderSpec = 10; files = (2B0000000000000000000005, 6B0000000000000000000003, ); name = "Embed native inference"; runOnlyForDeploymentPostprocessing = 0; };
+        3A0000000000000000000005 /* Embed App Extensions */ = {isa = PBXCopyFilesBuildPhase; buildActionMask = 2147483647; dstPath = ""; dstSubfolderSpec = 13; files = (3A0000000000000000000003, ); name = "Embed App Extensions"; runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXFrameworksBuildPhase section */
+		1A0000000000000000000007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+                2B0000000000000000000003,
+                6B0000000000000000000001 /* SherpaOnnxC.xcframework in Frameworks */,
+                4A0000000000000000000003 /* needle.xcframework in Frameworks */,
+                5A0000000000000000000001 /* Citadel in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A0000000000000000000006 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = ( ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A0000000000000000000002 = {
+			isa = PBXGroup;
+			children = (
+				1A0000000000000000000010 /* iOSApp.swift */,
+                2B0000000000000000000002,
+                2C0000000000000000000002 /* NativeDrivers.swift */,
+                6B0000000000000000000005 /* SherpaOnnx.swift */,
+                6B0000000000000000000007 /* TotoKokoroPack.swift */,
+                6B0000000000000000000009 /* LooiTcpLink.swift */,
+                6B000000000000000000000C /* LooiBleLink.swift */,
+                6B0000000000000000000008 /* SherpaOnnx-Bridging-Header.h */,
+                6B0000000000000000000002 /* SherpaOnnxC.xcframework */,
+                6B0000000000000000000011 /* TotoBunzip.c */,
+                6B0000000000000000000013 /* blocksort.c */,
+                6B0000000000000000000015 /* huffman.c */,
+                6B0000000000000000000017 /* crctable.c */,
+                6B0000000000000000000019 /* randtable.c */,
+                6B000000000000000000001B /* compress.c */,
+                6B000000000000000000001D /* decompress.c */,
+                6B000000000000000000001F /* bzlib.c */,
+                4A0000000000000000000002 /* NeedleRuntime.swift */,
+                5A0000000000000000000005 /* SshTerminal.swift */,
+                4A0000000000000000000004 /* needle.xcframework */,
+                2D0000000000000000000002 /* Assets.xcassets */,
+                2B0000000000000000000004,
+				1A0000000000000000000011 /* ContentView.swift */,
+                3A0000000000000000000002 /* MeowWidgets.swift */,
+				1A0000000000000000000014 /* Info.plist */,
+				1A0000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A0000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A0000000000000000000017 /* Meowmba.app */,
+                3A0000000000000000000004 /* MeowWidgets.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A0000000000000000000005 /* Meowmba */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A000000000000000000000D /* Build configuration list for PBXNativeTarget "Meowmba" */;
+			buildPhases = (
+				1A0000000000000000000009 /* Build SharedKit framework */,
+				1A0000000000000000000006 /* Sources */,
+				1A0000000000000000000007 /* Frameworks */,
+				1A0000000000000000000008 /* Resources */,
+                2B0000000000000000000006,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Meowmba;
+			packageProductDependencies = (
+				5A0000000000000000000003 /* Citadel */,
+			);
+			productName = Meowmba;
+			productReference = 1A0000000000000000000017 /* Meowmba.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A0000000000000000000007 /* MeowWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A000000000000000000000A;
+			buildPhases = (3A0000000000000000000008, 3A0000000000000000000006, );
+			buildRules = ( );
+			dependencies = ( );
+			name = MeowWidgets;
+			productName = MeowWidgets;
+			productReference = 3A0000000000000000000004;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A0000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					1A0000000000000000000005 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 1A000000000000000000000A /* Build configuration list for PBXProject "Meowmba" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A0000000000000000000002;
+			packageReferences = (
+				5A0000000000000000000002 /* XCRemoteSwiftPackageReference "Citadel" */,
+			);
+			productRefGroup = 1A0000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A0000000000000000000005 /* Meowmba */,
+				3A0000000000000000000007 /* MeowWidgets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A0000000000000000000008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+                2D0000000000000000000001 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A0000000000000000000009 /* Build SharedKit framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Build SharedKit framework";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"$SRCROOT/..\"\n./gradlew :composeApp:embedAndSignAppleFrameworkForXcode\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A0000000000000000000006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0000000000000000000013 /* ContentView.swift in Sources */,
+                2B0000000000000000000001,
+                2C0000000000000000000001 /* NativeDrivers.swift in Sources */,
+                6B0000000000000000000004 /* SherpaOnnx.swift in Sources */,
+                6B0000000000000000000006 /* TotoKokoroPack.swift in Sources */,
+                6B000000000000000000000A /* LooiTcpLink.swift in Sources */,
+                6B000000000000000000000B /* LooiBleLink.swift in Sources */,
+                6B0000000000000000000010 /* TotoBunzip.c in Sources */,
+                6B0000000000000000000012 /* blocksort.c in Sources */,
+                6B0000000000000000000014 /* huffman.c in Sources */,
+                6B0000000000000000000016 /* crctable.c in Sources */,
+                6B0000000000000000000018 /* randtable.c in Sources */,
+                6B000000000000000000001A /* compress.c in Sources */,
+                6B000000000000000000001C /* decompress.c in Sources */,
+                6B000000000000000000001E /* bzlib.c in Sources */,
+                4A0000000000000000000001 /* NeedleRuntime.swift in Sources */,
+                5A0000000000000000000004 /* SshTerminal.swift in Sources */,
+				1A0000000000000000000012 /* iOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A0000000000000000000008 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (3A0000000000000000000001, ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXContainerItemProxy section */
+		3A000000000000000000000D = {isa = PBXContainerItemProxy; containerPortal = 1A0000000000000000000001; proxyType = 1; remoteGlobalIDString = 3A0000000000000000000007; remoteInfo = MeowWidgets; };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		3A000000000000000000000E = {isa = PBXTargetDependency; target = 3A0000000000000000000007; targetProxy = 3A000000000000000000000D; };
+/* End PBXTargetDependency section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5A0000000000000000000002 /* XCRemoteSwiftPackageReference "Citadel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/orlandos-nl/Citadel";
+			requirement = {
+				kind = exactVersion;
+				version = 0.12.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5A0000000000000000000003 /* Citadel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A0000000000000000000002 /* XCRemoteSwiftPackageReference "Citadel" */;
+			productName = Citadel;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A000000000000000000000B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A000000000000000000000C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A000000000000000000000E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T47FJ8ZYZX;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../composeApp/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)",
+					"$(SRCROOT)/Vendor",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/BZip2",
+				);
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lc++",
+					"-framework",
+					SharedKit,
+				);
+				SWIFT_OBJC_BRIDGING_HEADER = "SherpaOnnx-Bridging-Header.h";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meowmba.toto.merchtable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A000000000000000000000F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T47FJ8ZYZX;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../composeApp/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)",
+					"$(SRCROOT)/Vendor",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/BZip2",
+				);
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lc++",
+					"-framework",
+					SharedKit,
+				);
+				SWIFT_OBJC_BRIDGING_HEADER = "SherpaOnnx-Bridging-Header.h";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meowmba.toto.merchtable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3A000000000000000000000B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T47FJ8ZYZX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Widgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Meowmba;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks", "@executable_path/../../Frameworks", );
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meowmba.multi.app.widgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A000000000000000000000C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T47FJ8ZYZX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Widgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Meowmba;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks", "@executable_path/../../Frameworks", );
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meowmba.multi.app.widgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A000000000000000000000A /* Build configuration list for PBXProject "Meowmba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A000000000000000000000B /* Debug */,
+				1A000000000000000000000C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A000000000000000000000D /* Build configuration list for PBXNativeTarget "Meowmba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A000000000000000000000E /* Debug */,
+				1A000000000000000000000F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A000000000000000000000A = {isa = XCConfigurationList; buildConfigurations = (3A000000000000000000000B, 3A000000000000000000000C, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A0000000000000000000001 /* Project object */;
+}

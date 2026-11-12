@@ -1,0 +1,39 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Kotlin / KMP
+.kotlin/
+
+# Machine-local configuration (absolute SDK / keystore paths)
+local.properties
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Android build outputs
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.hprof
+
+# Kotlin/Native
+*.klib
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Reproducible native inference dependency (scripts/setup-ios-llama.sh)
+iosApp/Vendor/
